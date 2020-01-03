@@ -17,9 +17,6 @@
         <p>macadmin.info</p>
         <p>A resource for beginning and experienced Mac/Apple administrators.</p>
       </header>
-      <footer>
-        <a href="#banner" class="button style2 scrolly-middle">Scroll</a>
-      </footer>
     </section>
 
     <section id="banner">
@@ -31,32 +28,30 @@
       started being responsible for Macs/iOS. Or, you've been in the Mac space since 1984, and are just looking for some
       new resources. You're in the right place!<br />
       &nbsp;&nbsp;The focus of this list is getting started from square one, and then improving/growing once you're in the role. It also
-      intends to help with issues <i>unique to managing Macs and iOS devices</i>. (So, while a Mac Admin may want to set up Docker on AWS
-      to build out Mac-management infrastructure, that's outside of the scope. Learning bash and the terminal are important
+      intends to help with issues <i>unique to managing Macs and iOS devices</i>. (So, while a Mac Admin may want to set up Kubernetes on AWS
+      to build out Mac-management infrastructure, that's outside of the scope. Learning scripting and the terminal are important
       for a Mac admin, but neither of those are really <i>unique</i> to the Mac. There is a fine line at times...it's a judgement call.)<br />
       &nbsp;&nbsp;Finally, your contributions are welcome! This site is <a href="https://github.com/macadmininfo/macadmininfo.github.io" target="" name="">hosted on GitHub</a>
-      so please send pull requests.
+      so please send pull requests.<br />
+      &nbsp;&nbsp;Let's go!
       </p>
-      <footer>
-        <a href="#contents" class="button style2 scrolly">Let's do this.</a>
-      </footer>
     </section>
 
     <!-- Contents -->
-    <article class="container box style3">
+    <article class="container box style3" style="background: #FFFFFF">
       <header>
         <h2 id="contents" style="left:0px;top:0px">Contents</h2>
         <p>High-level of what is here.</p>
         <p>
-            <a href="#gstarted" class="scrolly">Getting Started</a><br />
-            <a href="#interaction" class="scrolly">Meetups and Conferences</a><br />
-            <a href="#reading" class="scrolly">Reading: Books and Blogs</a><br />
-            <a href="#managementtools" class="scrolly">Management Tools</a><br />
-            <a href="#adminsoftware" class="scrolly">Admin Software</a><br />
-            <a href="#security" class="scrolly">Security</a><br />
-            <a href="#personaldevelopment" class="scrolly">Personal Development</a><br />
-            <a href="#jobs" class="scrolly">Jobs</a><br />
-            <a href="#morelists" class="scrolly">More Lists and Resources</a>
+            <a href="#gstarted">Getting Started</a><br />
+            <a href="#interaction">Meetups and Conferences</a><br />
+            <a href="#reading">Reading: Books and Blogs</a><br />
+            <a href="#managementtools">Management Tools</a><br />
+            <a href="#adminsoftware">Admin Software</a><br />
+            <a href="#security">Security</a><br />
+            <a href="#personaldevelopment">Personal Development</a><br />
+            <a href="#jobs">Jobs</a><br />
+            <a href="#morelists">More Lists and Resources</a>
         </p>
       </header>
     </article>
@@ -77,8 +72,8 @@
         <h4>Guides/References</h4>
           <a href="https://images.apple.com/kr/business/resources/docs/Mac_Deployment_Overview.pdf" target="" name="">Mac Deployment Overview</a><br />
           <a href="https://www.apple.com/business/resources/docs/iOS_Deployment_Overview_for_Business.pdf" target="" name="">iOS Deployment Overview</a><br />
-          <a href="https://support.apple.com/guide/deployment-reference-macos/welcome/web" target="" name="">macOS Deployment Reference</a> - Web macOS Deployment Reference<br />
-          <a href="https://support.apple.com/guide/deployment-reference-ios/welcome/web" target="" name="">iOS Deployment Reference</a> - Web iOS Deployment Reference<br />
+          <a href="https://support.apple.com/guide/deployment-reference-macos/welcome/web" target="" name="">macOS Deployment Reference</a><br />
+          <a href="https://support.apple.com/guide/deployment-reference-ios/welcome/web" target="" name="">iOS Deployment Reference</a><br />
           <a href="https://developer.apple.com/library/content/featuredarticles/iPhoneConfigurationProfileRef/Introduction/Introduction.html" target="" name="">Configuration Profile Reference</a><br />
           <a href="https://help.apple.com/deployment/mdm/" target="" name="">Mobile device management settings guide</a><br />
           <a href="https://help.apple.com/deployment/education/" target="" name="">Education Deployment Guide</a><br />
@@ -115,8 +110,8 @@
       </section>
     </article>
 
-    <!-- Meetups -->
-    <article class="container box style3">
+    <!-- Interaction -->
+    <article class="container box style3" style="background: #FFFFFF">
       <header>
         <h2 id="interaction">Interaction</h2>
         <p>Reading and experimenting are great. However, meeting up with your peers just can't be beat. This section is broken
@@ -202,11 +197,11 @@
               </p>
           </header>
             <p>
-                <a href="http://www.peachpit.com/store/macos-support-essentials-10.13-apple-pro-training-series-9780134854991" target="" name="">macOS Support Essentials 10.13</a><br />
+                <a href="http://www.peachpit.com/store/macos-support-essentials-10.15-apple-pro-training-series-9780136552192" target="" name="">macOS Support Essentials 10.15 (Adam Karneboge, Arek Dreyer)</a><br />
                 <a href="https://scriptingosx.com/packaging-for-apple-administrators/" target="" name="">Packaging for Apple Administrators</a><br />
                 <a href="https://scriptingosx.com/pr3-for-apple-administrators/" target="" name="">PropertyLists, Preferences and Profiles for Apple Administrators</a><br />
-              <a href="https://scriptingosx.com/macos-installation-for-apple-administrators/" target="" name="">macOS Installation for Apple Administrators</a><br />
-          <a href="https://itunes.apple.com/us/book/managing-apple-devices-deploying-maintaining-ios-9/id1118909446?mt=11" target="" name="">Managing Apple Devices: Deploying and Maintaining iOS 9 and OS X El Capitan Devices, 3/e</a><br />
+                <a href="https://scriptingosx.com/macos-installation-for-apple-administrators/" target="" name="">macOS Installation for Apple Administrators</a><br />
+                <a href="https://www.apress.com/us/book/9781484253878">Apple Device Management (Charles Edge, Rich Trouton)</a>
                 If ever in doubt, just go search Amazon for "Arek Dreyer".
             </p>
           <header>
@@ -235,7 +230,7 @@
     </article>
     
     <!-- Management Tools -->
-    <article class="container box style3">
+    <article class="container box style3" style="background: #FFFFFF">
       <header>
         <h2 id="managementtools">Management Tools</h2>
         <p>Both commercial and open source software for centralized fleet management.</p>
@@ -276,7 +271,7 @@
     </article>
     
     <!-- Security -->
-    <article class="container box style3">
+    <article class="container box style3" style="background: #FFFFFF">
       <header>
         <h2 id="security">Security</h2>
         <p>Keeping a fleet of Macs——or just one——safe.</p>
@@ -326,7 +321,7 @@
     </article>
     
     <!-- Jobs -->
-    <article class="container box style3">
+    <article class="container box style3" style="background: #FFFFFF">
       <header>
         <h2 id="jobs">Jobs</h2>
         <p>Need a job or looking to switch? Here are some places to be looking.</p>
@@ -356,7 +351,7 @@
     </article>
     
     <!-- Contribute -->
-    <article class="container box style3">
+    <article class="container box style3" style="background: #FFFFFF">
       <header>
         <h2 id="contribute">Contribute!</h2>
         <p>This is a community resource. This site is <a href="https://github.com/macadmininfo/macadmininfo.github.io" target="" name="">hosted on GitHub</a>, so please send pull requests to add, update, or offer corrections.</p>
@@ -385,15 +380,6 @@
         </p>
       </section>
     </article>
-
-    <!-- Scripts -->
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/jquery.scrolly.min.js"></script>
-      <script src="assets/js/jquery.poptrox.min.js"></script>
-      <script src="assets/js/skel.min.js"></script>
-      <script src="assets/js/util.js"></script>
-      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-      <script src="assets/js/main.js"></script>
 
   </body>
 </html>
